@@ -1,0 +1,30 @@
+{
+  "name": "admin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack --watch",
+    "lint": "node_modules/.bin/eslint src/app"
+  },
+  "author": "Peter P. Neuromantic <peter.brovchenko@gmail.com>",
+  "license": "BSD-3-Clause",
+  "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.10.4",
+    "bootstrap.native-loader": "^2.0.0",
+    "css-loader": "^3.6.0",
+    "eslint": "^7.5.0",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "html-webpack-plugin": "^4.3.0",
+    "mini-css-extract-plugin": "^0.9.0",
+    "style-loader": "^1.2.1",
+    "uglify-js": "^3.10.0",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12"
+  },
+  "dependencies": {
+    "bootstrap.native": "^2.0.27",
+    "mithril": "^2.0.4"
+  }
+}

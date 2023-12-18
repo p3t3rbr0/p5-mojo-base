@@ -1,0 +1,54 @@
+use utf8;
+
+{
+	lang      => 'ru',
+	lang_full => 'Русский',
+	locale    => 'ru_RU',
+
+    admin => {
+        common => {
+            search_input => 'Поиск',
+            filter_btn   => 'Фильтр',
+        },
+        navbar => {
+            profile => 'Профиль',
+            logout  => 'Выйти',
+        },
+        sidebar => {
+            dashboard => 'Панель управления',
+            users     => 'Пользователи',
+            stats     => 'Статистика',
+        },
+        changelog => {
+        },
+        index => {
+            title         => 'Панель управления',
+            changelog     => 'История изменений',
+            has_questions => 'Есть вопросы ?',
+            feedback_form => 'Обратная связь',
+        },
+        users => {
+            new  => {
+                title        => 'Создание нового пользователя',
+                breadcrumb   => 'Новый пользователь',
+            },
+            list => {
+                 title        => 'Список пользователей',
+                 add_user     => 'Добавить пользователя',
+                 avatar       => 'Аватар',
+                 username     => 'Имя пользователя',
+                 email        => 'E-mail',
+                 created      => 'Дата создания',
+                 is_activated => 'Акк. активирован',
+                 is_admin     => 'Администратор'
+             }
+        },
+        stats => {
+        },
+    },
+    errors => {
+        users => {
+            user_not_found => 'Пользователь не найден'
+        }
+    }
+}

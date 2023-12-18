@@ -1,0 +1,29 @@
+# Perl::Critic level (harsh==3)
+severity           = harsh
+
+# Ingore magical "## no critic" annotations in the source code
+force              = 1
+
+# Format for reporting violations
+verbose            = 4
+
+# Use all Policies for current severity level
+only               = 0
+
+# Colorify output for different severity levels
+color              = 1
+
+# All Perl::Critic pilicies
+theme              = core
+
+# Mark criticism problems as fatal
+profile-strictness = fatal
+
+# Enable ysage unsafe policies
+allow-unsafe       = 1
+
+[Modules::ProhibitExcessMainComplexity]
+max_mccabe = 10
+
+[Subroutines::ProhibitExcessComplexity]
+max_mccabe = 10

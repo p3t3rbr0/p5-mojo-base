@@ -1,0 +1,47 @@
+{
+	lang      => 'ja',
+	lang_full => '日本語',
+	locale    => 'ja_JP',
+
+    admin => {
+        common => {
+            search_input => '探す',
+            filter_btn   => 'フィルタ',
+        },
+        navbar => {
+            profile => 'プロフィール',
+            logout  => 'ログアウト',
+        },
+        sidebar => {
+            dashboard => 'ダッシュボード',
+            users     => 'ユーザー',
+            stats     => '統計学',
+        },
+        changelog => {
+        },
+        index => {
+            title         => 'ダッシュボード',
+            changelog     => '変更ログ',
+            has_questions => '質問がありますか',
+            feedback_form => 'フィードバック',
+        },
+        users => {
+            new  => {
+                title        => '新しいユーザーを作成する',
+                breadcrumb   => '新しいユーザー',
+            },
+            list => {
+                 title        => 'ユーザーのリスト',
+                 add_user     => 'ユーザーを追加する',
+                 avatar       => 'アバター',
+                 username     => 'ユーザー名',
+                 email        => 'E-mail',
+                 created      => '作成日',
+                 is_activated => '活性化される',
+                 is_admin     => '管理者です'
+             }
+        },
+        stats => {
+        },
+    }
+}

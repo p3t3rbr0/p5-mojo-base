@@ -1,0 +1,58 @@
+.no-padding-left {
+    padding-left: 0;
+}
+
+.sidebar {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 100;
+	padding: 36px 0 0;
+	box-shadow: inset -1px 0 0 rgba(0, 0, 0, .1);
+}
+
+.sidebar-sticky {
+	position: relative;
+	top: 0;
+	height: 100%;
+	padding-top: 45px;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+@supports ((position: -webkit-sticky) or (position: sticky)) {
+	.sidebar-sticky {
+		position: -webkit-sticky;
+		position: sticky;
+	}
+}
+
+[role="main"] {
+	padding-top: 4.8rem;
+}
+
+.navbar-brand {
+	padding-left: 0;
+	text-transform: uppercase;
+}
+.navbar-brand span {
+	font-weight: bold;
+}
+
+#sidebar__footer {
+	padding-left: 0px;
+	border-top: 1px solid #eeeeee;
+	position: absolute;
+	bottom: 0px;
+	font-size: 12px;
+	text-align: center;
+}
+
+.fas {
+    width: 18px;
+    margin-right: 0.4rem;
+}
+.jumbotron {
+    padding: 2rem;
+}

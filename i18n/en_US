@@ -1,0 +1,45 @@
+{
+	lang      => 'en',
+	lang_full => 'English',
+	locale    => 'en_US',
+
+    admin => {
+        common => {
+            search_input => 'Search',
+            filter_btn   => 'Filter',
+        },
+        navbar => {
+            profile => 'Profile',
+            logout  => 'Logout',
+        },
+        sidebar => {
+            dashboard => 'Dashboard',
+            users     => 'Users',
+            stats     => 'Statistics',
+        },
+        changelog => {
+        },
+        index => {
+            title         => 'Dashboard',
+            changelog     => 'Changelog',
+            has_questions => 'Any questions ?',
+            feedback_form => 'Feedback',
+        },
+        users => {
+            new  => {
+                title        => 'Create a new user',
+                breadcrumb   => 'New user',
+            },
+            list => {
+                 title        => 'Users list',
+                 add_user     => 'Add user',
+                 avatar       => 'Avatar',
+                 username     => 'Username',
+                 email        => 'E-mail',
+                 created      => 'Creation date',
+                 is_activated => 'Is activated',
+                 is_admin     => 'Is admin'
+             }
+        },
+    }
+}

@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title><%= stash('title') %></title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta content="" name="description" />
+        <meta content="Peter Brovchenko" name="author" />
+        <link rel="shortcut icon" href="/favicon.ico">
+        <link href="/app/deps/bootstrap/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <%= content 'styles' %>
+    </head>
+    <body class="d-flex flex-column h-100">
+        <%= content 'body' %>
+        <script src="/app/deps/bootstrap/bootstrap-native.min.js" type="text/javascript"></script>
+        <%= content 'scripts' %>
+    </body>
+</html>
